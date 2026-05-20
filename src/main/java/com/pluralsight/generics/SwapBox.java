@@ -32,6 +32,6 @@ public class SwapBox<T> {
     }
 
     public String describe(){
-        return "";
+        return "Left: " +this.leftItem+ " , Right: "+ this.rightItem;
     }
 }
