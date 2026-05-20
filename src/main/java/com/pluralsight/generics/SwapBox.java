@@ -31,7 +31,8 @@ public class SwapBox<T> {
         leftItem = rightItem;
     }
 
+
     public String describe(){
-        return "Left: " +this.leftItem+ " , Right: "+ this.rightItem;
+        return "Left: " +this.leftItem.toString()+ " , Right: "+ this.rightItem.toString();
     }
 }
